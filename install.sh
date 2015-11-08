@@ -46,7 +46,8 @@ hash git &> /dev/null || {
 	apt-get install -y git > /dev/null
 }
 
-git clone -b 0.2 https://github.com/lxc-webpanel/LXC-Web-Panel.git "$INSTALL_DIR"
+#/git clone -b 0.2 https://github.com/lxc-webpanel/LXC-Web-Panel.git "$INSTALL_DIR"
+git clone https://github.com/plitc/lxc-to-go-webpanel.git "$INSTALL_DIR"
 
 echo -e '\nInstallation complete!\n\n'
 
