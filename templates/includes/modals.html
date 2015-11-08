@@ -25,7 +25,7 @@
 					<input id="inputName" type="text" pattern="(?!^containers$)[a-zA-Z0-9_-]+" placeholder="Name" name="name">
 					<span class="add-on" style="margin-left:30px;"><i class="icon-download-alt"></i></span>
 					<select id="selectTemplate" name="template">
-						{% for template in templates %}<option value="{{ template }}" {% if template == 'ubuntu' %}selected{% endif %}>{{ template }}</option>{% endfor %}
+						{% for template in templates %}<option value="{{ template }}" {% if template == 'debian' %}selected{% endif %}>{{ template }}</option>{% endfor %}
 					</select>
 				</div>
 			</div>
